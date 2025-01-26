@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#ZariFL
 
 import collections
 import os.path
@@ -22,7 +23,7 @@ from gans import checkpoint_utils
 
 
 @attr.s(frozen=True)
-class FakeExperimentState(object):
+class FakeExperimentState(object):^
   """An example container for state that need to be stored in the checkpoint.
 
   Attributes:
